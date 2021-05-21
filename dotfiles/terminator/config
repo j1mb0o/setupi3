@@ -1,0 +1,30 @@
+[global_config]
+  inactive_color_offset = 0.9012345679012346
+  suppress_multiple_term_dialog = True
+  title_font = Monospace 13
+[keybindings]
+  go_up = <Shift><Super>q
+  switch_to_tab_1 = <Super>1
+[profiles]
+  [[default]]
+    background_darkness = 0.75
+    background_type = transparent
+    cursor_color = "#cfeddc"
+    font = Monopace 13
+    foreground_color = "#cfeddc"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#000200:#41C06C:#80846A:#1E56A7:#205BC5:#64E59A:#4EB0D5:#cfeddc:#90a59a:#41C06C:#80846A:#1E56A7:#205BC5:#64E59A:#4EB0D5:#cfeddc"
+  [[New Profile]]
+    background_darkness = 0.8
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
